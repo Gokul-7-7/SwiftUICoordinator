@@ -14,8 +14,9 @@ struct AppleView: View {
     var body: some View {
         List {
             Button("Push BananaView🍌") {
-                coordinator.push(.banana)
-            }
+                withAnimation(.spring(response: 0.5, dampingFraction: 0.8)) {
+                    coordinator.push(.banana)
+                }            }
             Button("Present LemonView🍋") {
                 coordinator.present(sheet: .lemon)
             }

@@ -7,32 +7,6 @@
 
 import SwiftUI
 
-enum Page: String, Identifiable {
-    case apple
-    case banana
-    case carrot
-    
-    var id: String {
-        self.rawValue
-    }
-}
-
-enum Sheet: String, Identifiable {
-    case lemon
-    
-    var id: String {
-        self.rawValue
-    }
-}
-
-enum FullScreenCover: String, Identifiable {
-    case olive
-    
-    var id: String {
-        self.rawValue
-    }
-}
-
 class Coordinator: ObservableObject {
     
     @Published var path = NavigationPath()

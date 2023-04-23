@@ -17,6 +17,9 @@
 		55E7F55329F510790053CD19 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F55229F510790053CD19 /* Coordinator.swift */; };
 		55E7F55529F513210053CD19 /* OliveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F55429F513210053CD19 /* OliveView.swift */; };
 		55E7F55729F513650053CD19 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F55629F513650053CD19 /* CoordinatorView.swift */; };
+		55E7F55C29F52A090053CD19 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F55B29F52A090053CD19 /* Page.swift */; };
+		55E7F55E29F52A1F0053CD19 /* Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F55D29F52A1F0053CD19 /* Sheet.swift */; };
+		55E7F56029F52A360053CD19 /* FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F55F29F52A360053CD19 /* FullScreenCover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		55E7F55229F510790053CD19 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		55E7F55429F513210053CD19 /* OliveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveView.swift; sourceTree = "<group>"; };
 		55E7F55629F513650053CD19 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		55E7F55B29F52A090053CD19 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		55E7F55D29F52A1F0053CD19 /* Sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet.swift; sourceTree = "<group>"; };
+		55E7F55F29F52A360053CD19 /* FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				55E7F53C29F50D7E0053CD19 /* SwiftUICoordinatorApp.swift */,
+				55E7F55A29F529F90053CD19 /* Constants */,
 				55E7F55929F5274E0053CD19 /* Coordinator */,
 				55E7F55829F527420053CD19 /* Views */,
 				55E7F54029F50D7F0053CD19 /* Assets.xcassets */,
@@ -99,6 +106,16 @@
 				55E7F55629F513650053CD19 /* CoordinatorView.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		55E7F55A29F529F90053CD19 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				55E7F55B29F52A090053CD19 /* Page.swift */,
+				55E7F55D29F52A1F0053CD19 /* Sheet.swift */,
+				55E7F55F29F52A360053CD19 /* FullScreenCover.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +193,9 @@
 				55E7F55329F510790053CD19 /* Coordinator.swift in Sources */,
 				55E7F54F29F50FB30053CD19 /* CarrotView.swift in Sources */,
 				55E7F55129F50FF30053CD19 /* LemonView.swift in Sources */,
+				55E7F55E29F52A1F0053CD19 /* Sheet.swift in Sources */,
+				55E7F55C29F52A090053CD19 /* Page.swift in Sources */,
+				55E7F56029F52A360053CD19 /* FullScreenCover.swift in Sources */,
 				55E7F54D29F50F3E0053CD19 /* BananaView.swift in Sources */,
 				55E7F55529F513210053CD19 /* OliveView.swift in Sources */,
 				55E7F55729F513650053CD19 /* CoordinatorView.swift in Sources */,
