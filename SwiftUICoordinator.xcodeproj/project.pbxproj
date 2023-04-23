@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		55E7F53D29F50D7E0053CD19 /* SwiftUICoordinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F53C29F50D7E0053CD19 /* SwiftUICoordinatorApp.swift */; };
-		55E7F53F29F50D7E0053CD19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F53E29F50D7E0053CD19 /* ContentView.swift */; };
 		55E7F54129F50D7F0053CD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E7F54029F50D7F0053CD19 /* Assets.xcassets */; };
 		55E7F54429F50D7F0053CD19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E7F54329F50D7F0053CD19 /* Preview Assets.xcassets */; };
+		55E7F54B29F50E0A0053CD19 /* AppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F54A29F50E0A0053CD19 /* AppleView.swift */; };
+		55E7F54D29F50F3E0053CD19 /* BananaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F54C29F50F3E0053CD19 /* BananaView.swift */; };
+		55E7F54F29F50FB30053CD19 /* CarrotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F54E29F50FB30053CD19 /* CarrotView.swift */; };
+		55E7F55129F50FF30053CD19 /* LemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F55029F50FF30053CD19 /* LemonView.swift */; };
+		55E7F55329F510790053CD19 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F55229F510790053CD19 /* Coordinator.swift */; };
+		55E7F55529F513210053CD19 /* OliveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F55429F513210053CD19 /* OliveView.swift */; };
+		55E7F55729F513650053CD19 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F55629F513650053CD19 /* CoordinatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55E7F53929F50D7E0053CD19 /* SwiftUICoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E7F53C29F50D7E0053CD19 /* SwiftUICoordinatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoordinatorApp.swift; sourceTree = "<group>"; };
-		55E7F53E29F50D7E0053CD19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55E7F54029F50D7F0053CD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55E7F54329F50D7F0053CD19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55E7F54A29F50E0A0053CD19 /* AppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleView.swift; sourceTree = "<group>"; };
+		55E7F54C29F50F3E0053CD19 /* BananaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaView.swift; sourceTree = "<group>"; };
+		55E7F54E29F50FB30053CD19 /* CarrotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotView.swift; sourceTree = "<group>"; };
+		55E7F55029F50FF30053CD19 /* LemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonView.swift; sourceTree = "<group>"; };
+		55E7F55229F510790053CD19 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		55E7F55429F513210053CD19 /* OliveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveView.swift; sourceTree = "<group>"; };
+		55E7F55629F513650053CD19 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				55E7F53C29F50D7E0053CD19 /* SwiftUICoordinatorApp.swift */,
-				55E7F53E29F50D7E0053CD19 /* ContentView.swift */,
+				55E7F55929F5274E0053CD19 /* Coordinator */,
+				55E7F55829F527420053CD19 /* Views */,
 				55E7F54029F50D7F0053CD19 /* Assets.xcassets */,
 				55E7F54229F50D7F0053CD19 /* Preview Content */,
 			);
@@ -65,6 +78,27 @@
 				55E7F54329F50D7F0053CD19 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55E7F55829F527420053CD19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55E7F54A29F50E0A0053CD19 /* AppleView.swift */,
+				55E7F54C29F50F3E0053CD19 /* BananaView.swift */,
+				55E7F54E29F50FB30053CD19 /* CarrotView.swift */,
+				55E7F55029F50FF30053CD19 /* LemonView.swift */,
+				55E7F55429F513210053CD19 /* OliveView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55E7F55929F5274E0053CD19 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				55E7F55229F510790053CD19 /* Coordinator.swift */,
+				55E7F55629F513650053CD19 /* CoordinatorView.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E7F53F29F50D7E0053CD19 /* ContentView.swift in Sources */,
+				55E7F54B29F50E0A0053CD19 /* AppleView.swift in Sources */,
 				55E7F53D29F50D7E0053CD19 /* SwiftUICoordinatorApp.swift in Sources */,
+				55E7F55329F510790053CD19 /* Coordinator.swift in Sources */,
+				55E7F54F29F50FB30053CD19 /* CarrotView.swift in Sources */,
+				55E7F55129F50FF30053CD19 /* LemonView.swift in Sources */,
+				55E7F54D29F50F3E0053CD19 /* BananaView.swift in Sources */,
+				55E7F55529F513210053CD19 /* OliveView.swift in Sources */,
+				55E7F55729F513650053CD19 /* CoordinatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
