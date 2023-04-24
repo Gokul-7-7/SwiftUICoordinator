@@ -9,7 +9,7 @@ import SwiftUI
 
 class Coordinator: ObservableObject {
     
-    @Published var path = NavigationPath()
+    @Published var path = NavigationPath() ///List of data representing the content of a navigation stack.
     @Published var sheet: Sheet?
     @Published var fullScreenCover: FullScreenCover?
     
@@ -35,6 +35,7 @@ class Coordinator: ObservableObject {
         self.fullScreenCover = nil
     }
     
+    ///A custom parameter attribute that constructs views from closures.
     @ViewBuilder
     func build(page: Page) -> some View {
         switch page {

@@ -13,6 +13,7 @@ struct CoordinatorView: View {
     
     var body: some View {
         NavigationStack(path: $coordinator.path) {
+            //1) Build the initial page, ie. AppleView
             coordinator.build(page: .apple)
                 .navigationDestination(for: Page.self) { page in
                     coordinator.build(page: page)

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+///Responsible for the start up of the app
 @main
 struct SwiftUICoordinatorApp: App {
     var body: some Scene {
