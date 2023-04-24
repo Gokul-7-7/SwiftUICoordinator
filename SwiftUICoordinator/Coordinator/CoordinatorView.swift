@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CoordinatorView: View {
-    
+    ///A property wrapper type that instantiates an observable object.
     @StateObject private var coordinator = Coordinator()
     
     var body: some View {
@@ -25,7 +25,7 @@ struct CoordinatorView: View {
                 }
         }
         .environmentObject(coordinator)
-        //coordinator will be present in all of our views.
+        ///coordinator will be present in all of our views.
     }
 }
 

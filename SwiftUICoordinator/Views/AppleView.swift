@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct AppleView: View {
-    
+    ///A property wrapper type for an observable object supplied by a parent or ancestor view.
     @EnvironmentObject private var coordinator: Coordinator
-
+    
     var body: some View {
         List {
             Button("Push BananaView🍌") {

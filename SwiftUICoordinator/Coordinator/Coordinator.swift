@@ -16,27 +16,21 @@ class Coordinator: ObservableObject {
     func push(_ page: Page) {
         path.append(page)
     }
-    
     func present(sheet: Sheet) {
         self.sheet = sheet
     }
-    
     func present(fullScreenCover: FullScreenCover) {
         self.fullScreenCover = fullScreenCover
     }
-    
     func pop() {
         path.removeLast()
     }
-    
     func popToRoot() {
         path.removeLast(path.count)
     }
-    
     func dismissSheet() {
         self.sheet = nil
     }
-    
     func dismissFullScreenCover() {
         self.fullScreenCover = nil
     }
