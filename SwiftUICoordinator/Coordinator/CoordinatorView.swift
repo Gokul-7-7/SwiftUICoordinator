@@ -18,12 +18,15 @@ struct CoordinatorView: View {
                 .navigationDestination(for: Page.self) { page in
                     coordinator.build(page: page)
                 }
+            ///Associates a destination view with a presented data type for use within a navigation stack.
                 .sheet(item: $coordinator.sheet) { sheet in
                     coordinator.build(sheet: sheet)
                 }
+            ///Presents a sheet using the given item as a data source for the sheet’s content.
                 .fullScreenCover(item: $coordinator.fullScreenCover) { fullScreenCover in
                     coordinator.build(fullScreenCover: fullScreenCover)
                 }
+            ///Presents a modal view that covers as much of the screen as possible using the binding you provide as a data source for the sheet’s content.
         }
         .environmentObject(coordinator)
         ///coordinator will be present in all of our views.
